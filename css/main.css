@@ -11,16 +11,12 @@ body {
   position: fixed;
   border-radius: 0;
   border: 0;
-  background-color: white;
+  background-color: white; 
 }
 
 .navbar-fixed-left .navbar-nav > li {
   float: none;  /* Cancel default li float: left */
   width: 120px;
-}
-
-.navbar-fixed-left + .container {
-  padding-left: 160px;
 }
 
 /* On using dropdown menu (To right shift popuped) */
@@ -39,7 +35,10 @@ body {
     width: 30px;
 }
 
-h2 {
-    padding-left: 160px;
+#content {
+    padding-left: 180px;
+    text-align: center;
+    color: white;
 }
+
 
