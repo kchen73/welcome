@@ -1,7 +1,8 @@
+/* Site Template */
+
 body {
   font-family: 'Ubuntu', sans-serif;
   background-color: #4b2e83;
-  background-image: url("img/officers/officer-1215");
 }
 
 .navbar-fixed-left {
@@ -15,8 +16,7 @@ body {
 
 .navbar-fixed-left .navbar-nav > li {
   float: none;  /* Cancel default li float: left */
-  width: 140px;
-  color: black;
+  width: 120px;
 }
 
 .navbar-fixed-left + .container {
@@ -26,7 +26,7 @@ body {
 /* On using dropdown menu (To right shift popuped) */
 .navbar-fixed-left .navbar-nav > li > .dropdown-menu {
   margin-top: -50px;
-  margin-left: 140px;
+  margin-left: 120px;
 }
 
 #logo {
@@ -38,3 +38,8 @@ body {
     height: 30px;
     width: 30px;
 }
+
+h2 {
+    padding-left: 160px;
+}
+
