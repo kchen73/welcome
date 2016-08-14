@@ -16,38 +16,49 @@
   </head>
   <body>
     <div ng-app="myApp"> 
-      <div class="navbar navbar-default navbar-fixed-left">
-        <ul class="nav navbar-nav">
-          <li><a href="#/"><img id="logo" src="img/icons/bea-logo.png"></img></a></li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">About <span class="caret"></span></a>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="#/about">BEA</a></li>
-              <li><a href="#/officers">Officers</a></li>
-              <li><a href="#/awards">Awards</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Events <span class="caret"></span></a>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="#/events">Calendar</a></li>
-              <li><a href="#/case-comp">Ethics Case Competition</a></li>
-              <li><a href="#/amazing-race">Amazing Race</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Network <span class="caret"></span></a>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="#/speakers">Speakers</a></li>
-              <li><a href="#/partners">Partners</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Join Us <span class="caret"></span></a>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="#/membership">Membership</a></li>
-              <li><a href="#/officer-app">Officer Application</a></li>
-            </ul>
-          </li>
-          <li><a href="https://www.facebook.com/FosterBEA/?fref=ts"><img id="fb" src="img/icons/facebook.png"></img></a></li>
-        </ul>
-      </div>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#/"><img id="logo" src="img/icons/bea-logo.png"></img></a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown">About <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#/about">BEA</a></li>
+                <li><a href="#/officers">Officers</a></li>
+                <li><a href="#/awards">Awards</a></li> 
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown">Events <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#/events">Calendar</a></li>
+                <li><a href="#/case-comp">Ethics Case Competition</a></li>
+                <li><a href="#/amazing-race">Amazing Race</a></li> 
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown">Network <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#/speakers">Speakers</a></li>
+                <li><a href="#/partners">Partners</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown">Join Us <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#/membership">Membership</a></li>
+                <li><a href="#/officer-app">Officer Application</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav" id="nav-right">
+            <li><a href="https://www.facebook.com/FosterBEA/"><img id="comm" src="img/icons/facebook.png"></img></a></li>
+            <li><a href="mailto:huskybea@gmail.com"><img id="comm" src="img/icons/email.png"></img></a></li> 
+          </ul>
+        </div>
+      </nav>
       <div id="angular" ng-view></div> <!-- other pages -->
     </div>  
   </body> 

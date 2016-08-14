@@ -5,24 +5,17 @@ body {
   background-color: #4b2e83;
 }
 
-.navbar-fixed-left {
-  width: 180px;
-  height: 100%;
-  position: fixed;
-  border-radius: 0;
-  border: 0;
-  background-color: white; 
+.navbar-default {
+  background-color: white;
+  height: 100px;
 }
 
-.navbar-fixed-left .navbar-nav > li {
-  float: none;  /* Cancel default li float: left */
-  width: 120px;
+#nav-right {
+  float: right;
 }
 
-/* On using dropdown menu (To right shift popuped) */
-.navbar-fixed-left .navbar-nav > li > .dropdown-menu {
-  margin-top: -50px;
-  margin-left: 120px;
+#slogan {
+  font-style: italic;
 }
 
 #logo {
@@ -30,13 +23,12 @@ body {
     width: 150px;
 }
 
-#fb {
+#comm {
     height: 30px;
     width: 30px;
 }
 
 #content {
-    padding-left: 180px;
     text-align: center;
     color: white;
 }
