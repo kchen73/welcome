@@ -1,57 +1,71 @@
-/* Site Template */
+/* Default Site Template */
 
 body {
   font-family: 'Ubuntu', sans-serif;
   background-color: #4b2e83;
 }
 
+#content {
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  padding-bottom: 10px;
+}
+
+/* Navbar */
+
 .navbar-default {
   background-color: white;
   height: 100px;
+  width: 100%;
+  border-radius: 0;
+}
+
+#slogan {
+  color: #b7a57a;
+  font-style: italic;
+  text-decoration: bold;
+  font-size: 24px;
+  margin-left: 50px;
 }
 
 #nav-right {
   float: right;
 }
 
-#slogan {
-  font-style: italic;
-}
-
 #logo {
-    height: 75px;
-    width: 150px;
+  height: 75px;
+  width: 150px;
 }
 
 #comm {
-    height: 30px;
-    width: 30px;
-}
-
-#content {
-    text-align: center;
-    color: white;
+  height: 30px;
+  width: 30px;
 }
 
 /* Tables */
 
 table {
   width: 90%;
-}
-
-td {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: left;
+  margin-bottom: 20px;
 }
 
 table, td, th {
   border: 2px solid #b7a57a;
   border-collapse: collapse;
   padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
 }
 
 /* Events Page */
+
+#disclaimer {
+  font-style: italic;
+}
 
 /* Officers Page */
 
