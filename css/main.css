@@ -14,6 +14,10 @@ h1 {
   padding-bottom: 10px;
 }
 
+p {
+  text-align: left;
+}
+
 /* Navbar */
 
 .navbar-default {
@@ -59,6 +63,20 @@ table, td, th {
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: left;
+}
+
+/* About Page */
+
+#about-slogan {
+  color: #b7a57a;
+  font-style: italic;
+  text-decoration: bold;
+  margin-bottom: 20px;
+}
+
+#about {
+  width: 600px;
+  height: 400px;
 }
 
 /* Events Page */
