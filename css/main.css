@@ -44,6 +44,10 @@ p {
   width: 150px;
 }
 
+#menu {
+  color: #4b2e83;
+}
+
 #comm {
   height: 30px;
   width: 30px;
@@ -79,22 +83,27 @@ table, td, th {
   height: 400px;
 }
 
+/* Officers Page */
+
+#officer {
+  text-decoration: underline;
+}
+
+#mug {
+  width: 250px;
+  height: 250px;
+  margin-top: 25px;
+}
+
+#name {
+  color: #b7a57a;
+  text-align: left;
+}
+
 /* Events Page */
 
 #disclaimer {
   font-style: italic;
-}
-
-/* Officers Page */
-
-#mug {
-  width: 200px;
-  height: 200px;
-  margin-bottom: 50px;
-}
-
-.col-md-8 {
-  text-align: left;
 }
 
 /* Speakers Page */
