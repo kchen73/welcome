@@ -18,6 +18,10 @@ p {
   text-align: left;
 }
 
+#end {
+  margin-bottom: 25px;
+}
+
 /* Navbar */
 
 .navbar-default {
