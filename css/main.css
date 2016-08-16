@@ -69,6 +69,15 @@ table, td, th {
   text-align: left;
 }
 
+/* Landing Page */
+
+#banner {
+  width: 225px;
+  height: 581.25px;
+  margin-top: -20px;
+  float: left;
+}
+
 /* About Page */
 
 #about-slogan {
@@ -81,6 +90,10 @@ table, td, th {
 #about {
   width: 600px;
   height: 400px;
+}
+
+#bea {
+  margin-left: 10px;
 }
 
 /* Officers Page */
@@ -98,6 +111,10 @@ table, td, th {
 #name {
   color: #b7a57a;
   text-align: left;
+}
+
+#bio {
+  margin-right: 25px;
 }
 
 /* Events Page */
