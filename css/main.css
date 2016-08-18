@@ -148,5 +148,16 @@ table, td, th {
   text-align: center;
 }
 
-/* Speakers Page */
+/* Partners Page */
 
+#foster {
+  width: 450px;
+  height: 150px;
+  margin-top: 50px;
+}
+
+#uw {
+  width: 297px;
+  height: 200px;
+  margin-top: 50px;
+}
