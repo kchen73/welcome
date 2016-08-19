@@ -11,6 +11,7 @@ body {
 }
 
 h1 {
+  font-weight: bold;
   padding-bottom: 10px;
 }
 
@@ -160,4 +161,49 @@ table, td, th {
   width: 297px;
   height: 200px;
   margin-top: 50px;
+}
+
+/* Membership Page */
+
+#free {
+  color: #b7a57a;
+  font-style: italic;
+}
+
+#ms {
+  margin-left: 250px;
+  margin-bottom: 50px;
+}
+
+#three {
+  margin-left: 25px;
+}
+
+#involve {
+  color: #b7a57a;
+  font-weight: bold;
+}
+
+#sinegal, #commit, #help {
+  margin-top: 25px;
+  width: 225px;
+  height: 150px;
+}
+
+/* Officer App Page */
+
+#closed {
+  color: #b7a57a;
+  font-style: italic;
+}
+
+#return {
+  margin-left: 250px;
+  margin-bottom: 50px;
+}
+
+#team {
+  width: 800px;
+  height: 450px;
+  margin-bottom: 25px;
 }
