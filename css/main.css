@@ -194,6 +194,18 @@ table, td, th {
   width: 300px;
 }
 
+/* Amazing Race Page */
+
+#ar {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#racers, #canoe, #wb, #yoga, #win {
+  height: 400px;
+  width: 600px;
+}
+
 /* Partners Page */
 
 #foster {
