@@ -149,6 +149,51 @@ table, td, th {
   text-align: center;
 }
 
+/* Case Comp Page */
+
+#event {
+  padding-bottom: 0px;
+}
+
+#cc {
+  font-weight: bold;
+}
+
+#details {
+  margin-top: 5px;
+  text-align: center;
+  font-style: italic;
+  padding-bottom: 20px;
+}
+
+#left-q, #left, #right {
+  line-height: 150%;
+}
+
+#left-q {
+  color: #b7a57a;
+  font-weight: bold;
+}
+
+#right {
+  text-align: right;
+}
+
+#flyer {
+  height: 276px;
+  width: 200px;
+}
+
+#present, #finalists {
+  height: 400px;
+  width: 600px;
+}
+
+#winners {
+  height: 450px;
+  width: 300px;
+}
+
 /* Partners Page */
 
 #foster {
