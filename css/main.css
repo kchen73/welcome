@@ -54,7 +54,7 @@ h4 {
   width: 150px;
 }
 
-#menu {
+#menu, #menu1 {
   color: #4b2e83;
 }
 
@@ -89,8 +89,8 @@ table, td, th {
 }
 
 #headline {
-  width: 825px;
-  height: 637.5px;
+  width: 70%;
+  height: 70%;
   margin-bottom: 25px;
 }
 
@@ -104,8 +104,9 @@ table, td, th {
 }
 
 #about {
-  width: 600px;
-  height: 400px;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 25px;
 }
 
 #bea {
@@ -115,11 +116,10 @@ table, td, th {
 /* Officers Page */
 
 #mug {
-  width: 250px;
-  height: 250px;
+  width: 60%;
+  height: 60%;
   margin-top: 25px;
   margin-right: 25px;
-  float: right;
 }
 
 #name {
@@ -134,13 +134,13 @@ table, td, th {
 /* Awards Page */
 
 #2013 {
-  height: 100px;
-  width: 100px;
+  height: 70%;
+  width: 70%;
 }
 
 #2016 {
-  width: 500px;
-  height: 281.7px;
+  width: 50%;
+  height: 50%;
 }
 
 #award {
@@ -186,18 +186,18 @@ table, td, th {
 }
 
 #flyer {
-  height: 276px;
-  width: 200px;
+  height: 30%;
+  width: 30%;
 }
 
 #present, #finalists {
-  height: 400px;
-  width: 600px;
+  height: 70%;
+  width: 70%;
 }
 
 #winners {
-  height: 450px;
-  width: 300px;
+  height: 50%;
+  width: 50%;
 }
 
 /* Amazing Race Page */
@@ -208,8 +208,8 @@ table, td, th {
 }
 
 #racers, #canoe, #wb, #yoga, #win {
-  height: 400px;
-  width: 600px;
+  height: 80%;
+  width: 80%;
 }
 
 /* Sponsors Page */
@@ -221,23 +221,24 @@ table, td, th {
 }
 
 #lynden {
-  height: 250px;
-  width: 500px;
+  height: 70%;
+  width: 70%;
   margin-top: 20px;
 }
 
 /* Partners Page */
 
 #foster {
-  width: 450px;
-  height: 150px;
+  width: 70%;
+  height: 70%;
   margin-top: 50px;
 }
 
 #uw {
-  width: 297px;
-  height: 200px;
+  width: 50%;
+  height: 50%;
   margin-top: 50px;
+  margin-bottom: 25px;
 }
 
 /* Membership Page */
@@ -250,6 +251,7 @@ table, td, th {
 #ms {
   margin-left: 250px;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 #three {
@@ -263,8 +265,8 @@ table, td, th {
 
 #sinegal, #commit, #help {
   margin-top: 25px;
-  width: 225px;
-  height: 150px;
+  width: 80%;
+  height: 80%;
 }
 
 /* Officer App Page */
@@ -277,10 +279,44 @@ table, td, th {
 #return {
   margin-left: 250px;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 #team {
   width: 800px;
   height: 450px;
   margin-bottom: 25px;
+}
+
+/* Customization for mobile devices */
+
+@media screen and (max-width: 992px) {
+  
+  #nav-right {
+    float: none;
+  }
+
+  #banner {
+    width: 0px;
+    height: 0px;
+  }
+
+  #slogan {
+    font-size: 0px;
+  }
+
+  .navbar-default {
+    width: 100%;
+    height: 5%;
+  }
+
+  #menu1 {
+    padding-top: 50px;
+  }
+
+  #comm {
+    width: 10%;
+    height: 10%;
+  }
+
 }
