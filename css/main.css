@@ -89,30 +89,9 @@ table, td, th {
 }
 
 #headline {
-  color: #b7a57a;
-  text-align: left;
-  margin-left: 250px;
-  margin-right: 25px;
-}
-
-#divider {
-  text-align: center;
-}
-
-#next {
-  margin-top: 37px;
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-#promo {
-  margin-left: 250px;
-  margin-right: 25px;
-  margin-top: 20px;
-}
-
-#logistics {
-  font-style: italic;
+  width: 825px;
+  height: 637.5px;
+  margin-bottom: 25px;
 }
 
 /* About Page */
@@ -231,6 +210,20 @@ table, td, th {
 #racers, #canoe, #wb, #yoga, #win {
   height: 400px;
   width: 600px;
+}
+
+/* Sponsors Page */
+
+#sponsor {
+  text-align: left;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+#lynden {
+  height: 250px;
+  width: 500px;
+  margin-top: 20px;
 }
 
 /* Partners Page */

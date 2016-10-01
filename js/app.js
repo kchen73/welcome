@@ -44,6 +44,11 @@ var myApp = angular.module('myApp', ['ngRoute'])
         controller: 'SpeakerController', 
     })
 
+    .when('/sponsors/', { 
+        templateUrl: 'templates/sponsors.html',
+        controller: 'SponsorController', 
+    })
+
     .when('/partners/', { 
         templateUrl: 'templates/partners.html',
         controller: 'PartnerController', 
@@ -96,14 +101,18 @@ var myApp = angular.module('myApp', ['ngRoute'])
     $scope.number = 8;
   })
 
-  .controller('PartnerController', function($scope) {
+  .controller('SponsorController', function($scope) {
     $scope.number = 9;
   })
 
-  .controller('MembershipController', function($scope) {
+  .controller('PartnerController', function($scope) {
     $scope.number = 10;
   })
 
-  .controller('OfficerappController', function($scope) {
+  .controller('MembershipController', function($scope) {
     $scope.number = 11;
+  })
+
+  .controller('OfficerappController', function($scope) {
+    $scope.number = 12;
   });
