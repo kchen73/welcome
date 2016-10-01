@@ -319,4 +319,8 @@ table, td, th {
     height: 10%;
   }
 
+  #return, #ms {
+    margin-left: 0px;
+  }
+
 }
