@@ -150,6 +150,10 @@ table, td, th {
 
 /* Events Page */
 
+#past {
+  text-decoration: line-through;
+}
+
 #disclaimer {
   font-style: italic;
   text-align: center;
