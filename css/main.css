@@ -154,6 +154,11 @@ table, td, th {
   text-decoration: line-through;
 }
 
+#current {
+  color: #b7a57a;
+  font-weight: bold;
+}
+
 #disclaimer {
   font-style: italic;
   text-align: center;
