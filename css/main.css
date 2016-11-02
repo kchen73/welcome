@@ -157,6 +157,7 @@ table, td, th {
 #current {
   color: #b7a57a;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 #disclaimer {
