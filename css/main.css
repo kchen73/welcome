@@ -293,10 +293,14 @@ table, td, th {
   font-style: italic;
 }
 
-#return {
+#return, #return2 {
   margin-left: 250px;
   margin-bottom: 50px;
   text-align: center;
+}
+
+#return2 {
+  margin-top: 50px;
 }
 
 #team {
