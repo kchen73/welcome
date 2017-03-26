@@ -68,6 +68,11 @@ var myApp = angular.module('myApp', ['ngRoute'])
         templateUrl: 'templates/au16.html',
         controller: 'Au16Controller', 
     })
+
+    .when('/wi16/', { 
+        templateUrl: 'templates/wi16.html',
+        controller: 'Wi16Controller', 
+    })
   })
 
   .controller('IndexController', function($scope) {
@@ -124,4 +129,8 @@ var myApp = angular.module('myApp', ['ngRoute'])
 
   .controller('Au16Controller', function($scope) {
     $scope.number = 13;  
+  })
+
+  .controller('Wi16Controller', function($scope) {
+    $scope.number = 14;  
   });
