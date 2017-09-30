@@ -34,9 +34,9 @@ var myApp = angular.module('myApp', ['ngRoute'])
         controller: 'CasecompController', 
     })
 
-    .when('/amazing-race/', { 
-        templateUrl: 'templates/amazing-race.html',
-        controller: 'AmazingraceController', 
+    .when('/mentorship/', { 
+        templateUrl: 'templates/mentorship.html',
+        controller: 'MentorshipController', 
     })
 
     .when('/speakers/', { 
@@ -99,7 +99,7 @@ var myApp = angular.module('myApp', ['ngRoute'])
     $scope.number = 5;
   })
 
-  .controller('AmazingraceController', function($scope) {
+  .controller('MentorshipController', function($scope) {
     $scope.number = 6;
   })
 
