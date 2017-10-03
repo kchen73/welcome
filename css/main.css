@@ -196,8 +196,8 @@ table, td, th {
 }
 
 #flyer {
-  height: 60%;
-  width: 60%;
+  height: 100%;
+  width: 100%;
 }
 
 #present, #finalists {
